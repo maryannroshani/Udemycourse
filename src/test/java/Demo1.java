@@ -1,6 +1,7 @@
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -38,14 +39,16 @@ public class Demo1 {
                 System.out.println(driver.getCurrentUrl());
                 System.out.println(driver.getTitle());
                 driver.get("http://yahoo.com");
-                driver.navigate().back();
-                System.out.println(driver.getTitle());
-                driver.close();
+                //driver.navigate().back();
+                Assert.assertEquals("Yahoo New Zealand", driver.getTitle());
+       driver.close();
+
     }
 
     @Test
     public void Demo2(){
         //System.out.println("bye");
+
 
     }
 
