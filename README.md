@@ -5,14 +5,16 @@
 
 _Framework Used:_ 
 
-`Data Driven Testing:`
+`Data Driven Testing (DDT):`
+
 Excel Data Reader
 
-`Page Design Pattern:`
-Page Object Model (POM)
+`Page Design Pattern (POM):`
 
+Page Object Model 
 
 `Automation Test Framework:`
+
 TestNG, JUnit
 
 
