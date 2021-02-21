@@ -3,18 +3,20 @@
 # **Web UI test automation**
 
 
-_Framework Used:_ 
+_Frameworks Used:_ 
+
+
+`Behaviour Driven Data (BDD):`
+Cucumber (Gherkin) - Writing test cases for business scenarios, Mapping step definition to feature file
+Running tests with Test Runner, Integrate cucumber with TestNG and Maven 
 
 `Data Driven Testing (DDT):`
-
 Excel Data Reader
 
 `Page Design Pattern (POM):`
-
-Page Object Model 
+Page Object Model and Page Factory
 
 `Automation Test Framework:`
-
 TestNG, JUnit
 
 
@@ -33,6 +35,7 @@ Apache Maven - Apache Maven is a software project management and comprehension t
 
 `Continuous Integration:`
 Jenkins - Jenkins is an award-winning application that monitors executions of repeated jobs, such as building a software project or jobs run by cron.
+GitHub - Importance of GitHub/GIT as version control tool.
 
 `Reporting:`
 ExtentReports - HTML reporting library for .NET and Java which is extremely easy to use and creates beautiful execution reports. It shows test and step summary, test steps and status in a toggle view for quick analysis.
@@ -41,7 +44,10 @@ ExtentReports - HTML reporting library for .NET and Java which is extremely easy
 IntelliJ IDEA - A free and open-source IDE for Java, Groovy, Scala and Android development.
 IntelliJ IDEA Selenium plugin - Plugin for IntelliJ Idea to simplify creation of web tests using selenium
 
+Language:
+Java OOPS
 
 Other Tools: 
-`AutoIT:`
+
+`AutoIT:` File uploading and downloading
 
