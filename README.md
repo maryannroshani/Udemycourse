@@ -10,10 +10,14 @@ Cucumber (Gherkin) - Writing test cases for business scenarios, Mapping step def
 Running tests with Test Runner, Integrate cucumber with TestNG and Maven 
 
 `Data Driven Testing (DDT):`
+@DataProvider
 Excel Data Reader
 
 `Page Design Pattern (POM):`
 Page Object Model and Page Factory
+- Create Base and utility function 
+- Organizing page objects
+- Add Test Script 
 
 `Automation Test Framework:`
 TestNG - Annotations, Include, Exclude, @Test Priority, Session Handling & TestNG Dependency, Run Multiple Test Suites, TestNG Listeners in Selenium: ITestListener & ITestResult, TestNG Report Generation, Customize, PDF & Email TestNG, TestNG XML
@@ -33,7 +37,7 @@ WebDriver, Select Class, Action Class, Assertions,
 
 `Web Form & Element`: TextBox, Submit Button, sendkeys(), click() CheckBox and Radio Button, Image in Selenium Webdriver, DropDown, Alert & Popup Window, Web Table, Dynamic Web Tables, Desired Capabilities in Selenium WebDriver, All/Broken links, iFrames, Screenshot, Maximize Browser, Element Present, waitFor, andWait, Implicit, Explicit, & Fluent Wait, Scroll Down or UP, Select Date from DatePicker/Calendar 
 `Virtual environments:`
-Docker - Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+Docker - Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new feature faster, more securely and with confidence for both Linux and Windows Server apps.
 
 `Build Tools:`
 Apache Maven - Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
