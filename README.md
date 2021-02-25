@@ -22,6 +22,7 @@ Page Object Model and Page Factory
 `Automation Test Framework:`
 TestNG - Annotations, Include, Exclude, @Test Priority, Session Handling & TestNG Dependency, Run Multiple Test Suites, TestNG Listeners in Selenium: ITestListener & ITestResult, TestNG Report Generation, Customize, PDF & Email TestNG, TestNG XML
 JUnit
+Converting framework into TestNG and configuring TestNG xml file 
 
 
 
