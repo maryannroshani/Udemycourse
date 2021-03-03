@@ -11,7 +11,7 @@ Running tests with Test Runner, Integrate cucumber with TestNG and Maven
 
 `Data Driven Testing (DDT):`
 @DataProvider
-Excel Data Reader
+Excel Data Reader - data driving and parameterizing tests 
 
 `Page Design Pattern (POM):`
 Page Object Model and Page Factory
@@ -49,6 +49,7 @@ GitHub - Importance of GitHub/GIT as version control tool.
 
 `Reporting:`
 ExtentReports - HTML reporting library for .NET and Java which is extremely easy to use and creates beautiful execution reports. It shows test and step summary, test steps and status in a toggle view for quick analysis.
+Screenshot of test failures
 
 `Editors, IDE, consoles:`
 IntelliJ IDEA - A free and open-source IDE for Java, Groovy, Scala and Android development.

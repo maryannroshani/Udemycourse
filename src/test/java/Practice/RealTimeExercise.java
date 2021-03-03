@@ -19,7 +19,7 @@ public class RealTimeExercise {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
-        exercise(driver);
+        exercise2(driver);
 
         /*//System.out.println(driver.findElements(By.xpath("//div[@id='gf-BIG']//table//td[1]//a")).size());
 
@@ -71,5 +71,17 @@ public class RealTimeExercise {
         }
         else
             System.out.println("Something wrong with execution");
+    }
+
+
+    public static void exercise2(WebDriver driver) throws InterruptedException {
+        driver.findElement(By.cssSelector("#autocomplete")).sendKeys("New Zealand");
+        Thread.sleep(2000);
+
+        driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
+        driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
+        System.out.println(driver.findElement(By.id("autocomplete")).getAttribute("value"));
+
+
     }
 }
